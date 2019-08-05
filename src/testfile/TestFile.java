@@ -1,4 +1,4 @@
-package testFile;
+package testfile;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -6,7 +6,7 @@ import java.util.Date;
 
 
 /**
- * @author charwayH
+ * @author charwayHf
  */
 public class TestFile {
     public static void main(String[] args) {
@@ -37,11 +37,11 @@ public class TestFile {
         System.out.println("获取文件名: " + file.getName());
 
         //创建文件夹1
-        //File file1 = new File("src/testFile/dir1");
+        //File file1 = new File("src/testfile/dir1");
         //System.out.println("创建文件夹1: " + file1.mkdir());
 
         //创建文件夹2
-        //File file2 = new File("src/testFile/dir2");
+        //File file2 = new File("src/testfile/dir2");
         //System.out.println("创建文件夹2: " + file2.mkdir());
 
         //获取当前file父路径名字
@@ -62,8 +62,8 @@ public class TestFile {
         //对象数组的长度不为0，则证明当前file内有元素
         //System.out.println("获取当前file的子文件对象个数: " + files.length);
 
-        File file6 = new File("src/testFile/dir1");
-        System.out.println("是否删除文件： " + file.delete());
+        //File file6 = new File("src/testfile/dir1");
+        //System.out.println("是否删除文件： " + file6.delete());
 
 
 
